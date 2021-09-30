@@ -43,4 +43,13 @@ public class CounterTest {
         Assert.assertEquals(result, expected);
     }
 
+    @Test
+    public void whenSumByEven1To10Then30() {
+        int start = 1;
+        int finish = 10;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 30;
+        Assert.assertEquals(result, expected);
+    }
+
 }
