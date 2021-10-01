@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CounterTest {
-
     @Test
     public void whenSumByEven0To0Then0() {
         int start = 0;
