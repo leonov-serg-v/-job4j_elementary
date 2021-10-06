@@ -24,7 +24,7 @@ public class FindLoopTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
-    
+
     @Test
     public void whenArrayHas20ThenNoFound() {
         int[] data = {5, 4, 3, 2};
