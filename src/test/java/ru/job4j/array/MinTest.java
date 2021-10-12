@@ -38,4 +38,5 @@ public class MinTest {
         int result = Min.findMin(data);
         Assert.assertEquals(expected, result);
     }
+
 }
