@@ -14,7 +14,7 @@ public class EqLastTest {
         boolean result = EqLast.check(left, rigth);
         Assert.assertTrue(result);
     }
-    
+
     @Test
     public void whenNoEq() {
         int[] left = {1, 2, 3};
