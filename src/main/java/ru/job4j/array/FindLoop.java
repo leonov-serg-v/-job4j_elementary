@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class FindLoop {
 
     public static int indexOf(int[] data, int el, int start, int finish) {
-        for (int i = start; i < finish + 1; i++) {
+        for (int i = start; i <= finish; i++) {
             if (data[i] == el) {
                 return i;
             }
