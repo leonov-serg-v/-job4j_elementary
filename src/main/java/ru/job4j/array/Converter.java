@@ -20,7 +20,6 @@ public class Converter {
                 result[count / n][count % n] = array[i][j];
                 count++;
             }
-
         }
         return result;
     }

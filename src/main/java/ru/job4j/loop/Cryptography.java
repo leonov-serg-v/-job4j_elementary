@@ -14,15 +14,12 @@ public class Cryptography {
         for (int i = sb.length() - 5; i >= 0; i--) {
             sb.replace(i, i + 1, "#");
         }
-
         return sb.toString();
     }
 
     public static void main(String[] args) {
-
         String numbers = "0123456789";
         StringBuffer sb = new StringBuffer(numbers);
         System.out.println(sb.replace(3, 4, "#"));
-
     }
 }

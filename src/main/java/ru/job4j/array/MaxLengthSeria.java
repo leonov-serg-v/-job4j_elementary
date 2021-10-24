@@ -11,7 +11,6 @@ public class MaxLengthSeria {
                 maxCnt = cnt > maxCnt ? cnt : maxCnt;
                 cnt = 1;
             }
-
         }
         maxCnt = cnt > maxCnt ? cnt : maxCnt;
         int n = (int) Math.sqrt(10);

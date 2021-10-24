@@ -6,7 +6,6 @@ public class RandomDream {
         if (num == 0) {
             num = prizes.length;
         }
-
        return prizes[num - 1];
     }
 }

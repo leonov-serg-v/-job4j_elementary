@@ -7,7 +7,6 @@ public class PrintEvenElements {
             if ((numbers.length - 1 - i) % 2 == 0) {
                 System.out.println(numbers[numbers.length - 1 - i]);
             }
-
         }
     }
 }
